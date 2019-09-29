@@ -1,0 +1,19 @@
+{
+    "name": "haodaMIDI",
+    "version": "0.0.1",
+    "description": "Extension for haodaMIDI",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "main.ts",
+        "_locales/zh/haodaMIDI-strings.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "preferredEditor": "tsprj"
+}

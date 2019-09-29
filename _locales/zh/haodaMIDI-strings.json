@@ -1,0 +1,7 @@
+{
+	"haodaMIDI.riverss.s0|block": "通道0",
+	"haodaMIDI.settone|block": "midi在引脚|%port|设置 通道|%index|音色|%pply",
+	"haodaMIDI.sendtone|block":"midi 在引脚 %port|发送 通道 %index|音阶 %sca|音符号 %noty|音量 %pply",
+	"haodaMIDI.sendpercussion|block":"midi 在引脚|%port|发送 打击乐|%index|音量|%pply"
+    
+}
