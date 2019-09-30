@@ -529,11 +529,10 @@ namespace haodaMIDI {
         for (mask = 0x01; mask < 0x81; mask <<= 1) {
             if (index & mask) {
                 pins.digitalWritePin(pinn, 1);
-                control.waitMicros(0);
             } else {
                 pins.digitalWritePin(pinn, 0);
-                control.waitMicros(0);
             }
+            control.waitMicros(0);
         }
         pins.digitalWritePin(pinn, 1);
     }
@@ -547,12 +546,17 @@ namespace haodaMIDI {
 
     }
 
+    //% weight=20
+    //% blockId=HaodaMidi_test2 block="midi初始化|%port"
+    export function ttest2(port: Ports): void {
+        let pin = PortDigital[port];
+        midi_setpin(pin);
+
+    }
 
     //% weight=40
     //% blockId=HaodaMidi_set block="midi at pin|%port|set channel|%index|tone|%pply"
     export function settone(port: Ports, index: riverss, pply: musicplay): void {
-        let pin = PortDigital[port];
-        midi_setpin(pin);
         midi_send(index, pply, pply);
     }
 
@@ -564,8 +568,6 @@ namespace haodaMIDI {
     //% blockId=HaodaMidi_sendtt block="midi at pin %port send channel %index scale %sca note %noty volume %pply"
     //% inlineInputMode=inline
     export function sendtone(port: Ports, index: riverss1, scale: musicscale, note: musicnote, pply: number): void {
-        let pin = PortDigital[port];
-        midi_setpin(pin);
         let value = scale + note;
         midi_send(index, value, pply);
     }
@@ -577,32 +579,24 @@ namespace haodaMIDI {
     //% weight=40
     //% blockId=HaodaMidi_play block="midi at pin|%port|send percussion|%index|volume|%pcl"
     export function sendpercussion(port: Ports, index: soundd, pcl: number): void {
-        let pin = PortDigital[port];
-        midi_setpin(pin);
         midi_send(0x99, index, pcl);
     }
+
+
     /**
-        //% weight=20
-        //% blockId=HaodaMidi_test2 block="midi初始化|%port"
-        export function ttest2(port: Ports): void {
-            let pin = PortDigital[port];
-            midi_setpin(pin);
-    
-        }
-    
-        //% weight=20
-        //% blockId=HaodaMidi_test1 block="演奏"
-        export function ttest1(): void {
-    
-            midi_send(0x99, 0x23, 0x32);
-        }
-    
-        //% weight=20
-        //% blockId=HaodaMidi_test3 block="停止"
-        export function ttest3(): void {
-    
-            midi_send(0x99, 0x23, 0x00);
-        }
-    */
+       //% weight=20
+       //% blockId=HaodaMidi_test1 block="演奏"
+       export function ttest1(): void {
+   
+           midi_send(0x99, 0x23, 0x32);
+       }
+   
+       //% weight=20
+       //% blockId=HaodaMidi_test3 block="停止"
+       export function ttest3(): void {
+   
+           midi_send(0x99, 0x23, 0x00);
+       }
+   */
 
 }
