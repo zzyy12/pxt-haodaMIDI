@@ -173,19 +173,19 @@ namespace haodaMIDI {
         dg9 = 0x08,
         //% block="Glockenspiel 钟琴"
         dg10 = 0x09,
-		 //% block="Music box 八音盒"
-		dg11 = 0x0a,
-		 //% block="Vibraphone 颤音琴"
-		dg12 = 0x0b,
-		 //% block="Marimba 马林巴"
-		dg13 = 0x0c,
-		 //% block="Xylophone 木琴"
-		dg14 = 0x0d,
-		 //% block="Tubular Bells 管钟"
-		dg15 = 0x0e,
-		 //% block="Dulcimer 大扬琴"
-		dg16 = 0x0f,
-		//% block="Hammond Organ 击杆风琴"
+        //% block="Music box 八音盒"
+        dg11 = 0x0a,
+        //% block="Vibraphone 颤音琴"
+        dg12 = 0x0b,
+        //% block="Marimba 马林巴"
+        dg13 = 0x0c,
+        //% block="Xylophone 木琴"
+        dg14 = 0x0d,
+        //% block="Tubular Bells 管钟"
+        dg15 = 0x0e,
+        //% block="Dulcimer 大扬琴"
+        dg16 = 0x0f,
+        //% block="Hammond Organ 击杆风琴"
         dg17 = 0x10,
         //% block="Percussive Organ 打击式风琴"
         dg18 = 0x11,
@@ -205,19 +205,19 @@ namespace haodaMIDI {
         dg25 = 0x18,
         //% block="Acoustic Guitar (steel) 钢弦吉他"
         dg26 = 0x19,
-		 //% block="Electric Guitar (jazz) 爵士电吉他"
-		dg27 = 0x1a,
-		 //% block="Electric Guitar (clean) 清音电吉他"
-		dg28 = 0x1b,
-		 //% block="Electric Guitar (muted) 闷音电吉他"
-		dg29 = 0x1c,
-		 //% block="Overdriven Guitar 加驱动效果的电吉他"
-		dg30 = 0x1d,
-		 //% block="Distortion Guitar 加失真效果的电吉他"
-		dg31 = 0x1e,
-		 //% block="Guitar Harmonics 吉他和音"
-		dg32 = 0x1f,
-		//% block="Acoustic Bass 大贝司（声学贝司）"
+        //% block="Electric Guitar (jazz) 爵士电吉他"
+        dg27 = 0x1a,
+        //% block="Electric Guitar (clean) 清音电吉他"
+        dg28 = 0x1b,
+        //% block="Electric Guitar (muted) 闷音电吉他"
+        dg29 = 0x1c,
+        //% block="Overdriven Guitar 加驱动效果的电吉他"
+        dg30 = 0x1d,
+        //% block="Distortion Guitar 加失真效果的电吉他"
+        dg31 = 0x1e,
+        //% block="Guitar Harmonics 吉他和音"
+        dg32 = 0x1f,
+        //% block="Acoustic Bass 大贝司（声学贝司）"
         dg33 = 0x20,
         //% block="Electric Bass(finger) 电贝司（指弹）"
         dg34 = 0x21,
@@ -237,19 +237,19 @@ namespace haodaMIDI {
         dg41 = 0x28,
         //% block="Viola 中提琴"
         dg42 = 0x29,
-		 //% block="Cello 大提琴"
-		dg43 = 0x2a,
-		 //% block="Contrabass 低音大提琴"
-		dg44 = 0x2b,
-		 //% block="Tremolo Strings 弦乐群颤音音色"
-		dg45 = 0x2c,
-		 //% block="Pizzicato Strings 弦乐群拨弦音色"
-		dg46 = 0x2d,
-		 //% block="Orchestral Harp 竖琴"
-		dg47 = 0x2e,
-		 //% block="Timpani 定音鼓"
-		dg48 = 0x2f,
-		//% block="String Ensemble 1 弦乐合奏音色1"
+        //% block="Cello 大提琴"
+        dg43 = 0x2a,
+        //% block="Contrabass 低音大提琴"
+        dg44 = 0x2b,
+        //% block="Tremolo Strings 弦乐群颤音音色"
+        dg45 = 0x2c,
+        //% block="Pizzicato Strings 弦乐群拨弦音色"
+        dg46 = 0x2d,
+        //% block="Orchestral Harp 竖琴"
+        dg47 = 0x2e,
+        //% block="Timpani 定音鼓"
+        dg48 = 0x2f,
+        //% block="String Ensemble 1 弦乐合奏音色1"
         dg49 = 0x30,
         //% block="String Ensemble 2 弦乐合奏音色2"
         dg50 = 0x31,
@@ -269,19 +269,19 @@ namespace haodaMIDI {
         dg57 = 0x38,
         //% block="Trombone 长号"
         dg58 = 0x39,
-		 //% block="Tuba 大号"
-		dg59 = 0x3a,
-		 //% block="Muted Trumpet 加弱音器小号"
-		dg60 = 0x3b,
-		 //% block="French Horn 法国号（圆号）"
-		dg61 = 0x3c,
-		 //% block="Brass Section 铜管组（铜管乐器合奏音色）"
-		dg62 = 0x3d,
-		 //% block="Synth Brass 1 合成铜管音色1"
-		dg63 = 0x3e,
-		 //% block="Synth Brass 2 合成铜管音色2"
-		dg64 = 0x3f,
-		//% block="Soprano Sax 高音萨克斯风"
+        //% block="Tuba 大号"
+        dg59 = 0x3a,
+        //% block="Muted Trumpet 加弱音器小号"
+        dg60 = 0x3b,
+        //% block="French Horn 法国号（圆号）"
+        dg61 = 0x3c,
+        //% block="Brass Section 铜管组（铜管乐器合奏音色）"
+        dg62 = 0x3d,
+        //% block="Synth Brass 1 合成铜管音色1"
+        dg63 = 0x3e,
+        //% block="Synth Brass 2 合成铜管音色2"
+        dg64 = 0x3f,
+        //% block="Soprano Sax 高音萨克斯风"
         dg65 = 0x40,
         //% block="Alto Sax 次中音萨克斯风"
         dg66 = 0x41,
@@ -301,19 +301,19 @@ namespace haodaMIDI {
         dg73 = 0x48,
         //% block="Flute 长笛"
         dg74 = 0x49,
-		 //% block="Recorder 竖笛"
-		dg75 = 0x4a,
-		 //% block="Pan Flute 排箫"
-		dg76 = 0x4b,
-		 //% block="Bottle Blow 瓶笛"
-		dg77 = 0x4c,
-		 //% block="Shakuhachi 日本尺八"
-		dg78 = 0x4d,
-		 //% block="Whistle 口哨声"
-		dg79 = 0x4e,
-		 //% block="Ocarina 奥卡雷那"
-		dg80 = 0x4f,
-		//% block="Lead 1 (square) 合成主音1（方波）"
+        //% block="Recorder 竖笛"
+        dg75 = 0x4a,
+        //% block="Pan Flute 排箫"
+        dg76 = 0x4b,
+        //% block="Bottle Blow 瓶笛"
+        dg77 = 0x4c,
+        //% block="Shakuhachi 日本尺八"
+        dg78 = 0x4d,
+        //% block="Whistle 口哨声"
+        dg79 = 0x4e,
+        //% block="Ocarina 奥卡雷那"
+        dg80 = 0x4f,
+        //% block="Lead 1 (square) 合成主音1（方波）"
         dg81 = 0x50,
         //% block="Lead 2 (sawtooth) 合成主音2（锯齿波）"
         dg82 = 0x51,
@@ -333,19 +333,19 @@ namespace haodaMIDI {
         dg89 = 0x58,
         //% block="Pad 2 (warm) 合成音色2 （温暖）"
         dg90 = 0x59,
-		 //% block="Pad 3 (polysynth) 合成音色3"
-		dg91 = 0x5a,
-		 //% block="Pad 4 (choir) 合成音色4 （合唱）"
-		dg92 = 0x5b,
-		 //% block="Pad 5 (bowed) 合成音色5"
-		dg93 = 0x5c,
-		 //% block="Pad 6 (metallic) 合成音色6 （金属声）"
-		dg94 = 0x5d,
-		 //% block="Pad 7 (halo) 合成音色7 （光环）"
-		dg95 = 0x5e,
-		 //% block="Pad 8 (sweep) 合成音色8"
-		dg96 = 0x5f,
-		//% block="FX 1 (rain) 合成效果 1 雨声"
+        //% block="Pad 3 (polysynth) 合成音色3"
+        dg91 = 0x5a,
+        //% block="Pad 4 (choir) 合成音色4 （合唱）"
+        dg92 = 0x5b,
+        //% block="Pad 5 (bowed) 合成音色5"
+        dg93 = 0x5c,
+        //% block="Pad 6 (metallic) 合成音色6 （金属声）"
+        dg94 = 0x5d,
+        //% block="Pad 7 (halo) 合成音色7 （光环）"
+        dg95 = 0x5e,
+        //% block="Pad 8 (sweep) 合成音色8"
+        dg96 = 0x5f,
+        //% block="FX 1 (rain) 合成效果 1 雨声"
         dg97 = 0x60,
         //% block="FX 2 (soundtrack) 合成效果 2 音轨"
         dg98 = 0x61,
@@ -365,19 +365,19 @@ namespace haodaMIDI {
         dg105 = 0x68,
         //% block="Banjo 班卓琴（美洲）"
         dg106 = 0x69,
-		 //% block="Shamisen 三昧线（日本）"
-		dg107 = 0x6a,
-		 //% block="Koto 十三弦筝（日本）"
-		dg108 = 0x6b,
-		 //% block="Kalimba 卡林巴"
-		dg109 = 0x6c,
-		 //% block="Bagpipe 风笛"
-		dg110 = 0x6d,
-		 //% block="Fiddle 民族提琴"
-		dg111 = 0x6e,
-		 //% block="Shanai 山奈"
-		dg112 = 0x6f,
-		//% block="Tinkle Bell 叮当铃"
+        //% block="Shamisen 三昧线（日本）"
+        dg107 = 0x6a,
+        //% block="Koto 十三弦筝（日本）"
+        dg108 = 0x6b,
+        //% block="Kalimba 卡林巴"
+        dg109 = 0x6c,
+        //% block="Bagpipe 风笛"
+        dg110 = 0x6d,
+        //% block="Fiddle 民族提琴"
+        dg111 = 0x6e,
+        //% block="Shanai 山奈"
+        dg112 = 0x6f,
+        //% block="Tinkle Bell 叮当铃"
         dg113 = 0x70,
         //% block="Agogo 阿哥哥鼓"
         dg114 = 0x71,
@@ -397,20 +397,20 @@ namespace haodaMIDI {
         dg121 = 0x78,
         //% block="Breath Noise 呼吸声"
         dg122 = 0x79,
-		 //% block="Seashore 海浪声"
-		dg123 = 0x7a,
-		 //% block="Bird Tweet 鸟鸣"
-		dg124 = 0x7b,
-		 //% block="Telephone Ring 电话铃"
-		dg125 = 0x7c,
-		 //% block="Helicopter 直升机"
-		dg126 = 0x7d,
-		 //% block="Applause 鼓掌声"
-		dg127 = 0x7e,
-		 //% block="Gunshot 枪声"
-		dg128 = 0x7f
-		
-		
+        //% block="Seashore 海浪声"
+        dg123 = 0x7a,
+        //% block="Bird Tweet 鸟鸣"
+        dg124 = 0x7b,
+        //% block="Telephone Ring 电话铃"
+        dg125 = 0x7c,
+        //% block="Helicopter 直升机"
+        dg126 = 0x7d,
+        //% block="Applause 鼓掌声"
+        dg127 = 0x7e,
+        //% block="Gunshot 枪声"
+        dg128 = 0x7f
+
+
     }
 
     export enum soundd {
@@ -434,7 +434,7 @@ namespace haodaMIDI {
         p9 = 0x2b,
         //% block="Pedal_HiHat_E1 踩镲"
         p10 = 0x2c,
-		//% block="Low_Tom 通鼓(中低)"
+        //% block="Low_Tom 通鼓(中低)"
         p11 = 0x2d,
         //% block="Open_HiHat 立镲(开)"
         p12 = 0x2e,
@@ -454,19 +454,19 @@ namespace haodaMIDI {
         p19 = 0x35,
         //% block="Tambourine 铃鼓"
         p20 = 0x36,
-		 //% block="Splash_Cymbal 小吊镲"
-		p21 = 0x37,
-		 //% block="Cowbell 牛铃"
-		p22 = 0x38,
-		 //% block="Crash_Cymbal_2 薄吊镲(高)"
-		p23 = 0x39,
-		 //% block="Vibra_Slap 振音梆盒"
-		p24 = 0x3a,
-		 //% block="Ride_Cymbal_2 厚吊镲(高)"
-		p25 = 0x3b,
-		 //% block="High_Bongo 邦戈鼓(高)"
-		p26 = 0x3c,
-		//% block="Low_Bongo 邦戈鼓(低)"
+        //% block="Splash_Cymbal 小吊镲"
+        p21 = 0x37,
+        //% block="Cowbell 牛铃"
+        p22 = 0x38,
+        //% block="Crash_Cymbal_2 薄吊镲(高)"
+        p23 = 0x39,
+        //% block="Vibra_Slap 振音梆盒"
+        p24 = 0x3a,
+        //% block="Ride_Cymbal_2 厚吊镲(高)"
+        p25 = 0x3b,
+        //% block="High_Bongo 邦戈鼓(高)"
+        p26 = 0x3c,
+        //% block="Low_Bongo 邦戈鼓(低)"
         p27 = 0x3d,
         //% block="Mute_Hi_Conga 康加鼓(高闭)"
         p28 = 0x3e,
@@ -486,19 +486,19 @@ namespace haodaMIDI {
         p35 = 0x45,
         //% block="Maracas 沙锤"
         p36 = 0x46,
-		 //% block="Short_Whistle_E2 哨子(短)"
-		p37 = 0x47,
-		 //% block="Long_Whistle_E2 哨子(长)"
-		p38 = 0x48,
-		 //% block="Short_Guiro_E3 刮板(短)"
-		p39 = 0x49,
-		 //% block="Long_Guiro_E3 刮板(长)"
-		p40 = 0x4a,
-		//% block="Claves 响棒"
+        //% block="Short_Whistle_E2 哨子(短)"
+        p37 = 0x47,
+        //% block="Long_Whistle_E2 哨子(长)"
+        p38 = 0x48,
+        //% block="Short_Guiro_E3 刮板(短)"
+        p39 = 0x49,
+        //% block="Long_Guiro_E3 刮板(长)"
+        p40 = 0x4a,
+        //% block="Claves 响棒"
         p41 = 0x4b,
         //% block="Hi_Wood_Block 梆盒(高)"
         p42 = 0x4c,
-		//% block="Low_Wood_Block 梆盒(低)"
+        //% block="Low_Wood_Block 梆盒(低)"
         p43 = 0x4d,
         //% block="Mute_Cuica_E4 拉鼓(闭)"
         p44 = 0x4e,
@@ -529,10 +529,12 @@ namespace haodaMIDI {
         for (mask = 0x01; mask < 0x81; mask <<= 1) {
             if (index & mask) {
                 pins.digitalWritePin(pinn, 1);
+
             } else {
                 pins.digitalWritePin(pinn, 0);
+
             }
-            control.waitMicros(0);
+
         }
         pins.digitalWritePin(pinn, 1);
 
@@ -541,23 +543,30 @@ namespace haodaMIDI {
 
 
     function midi_send(a: number, b: number, c: number): void {
+
         midi_write(a);
         midi_write(b);
         midi_write(c);
+
     }
 
 
     //% weight=40
-    //% blockId=HaodaMidi_set block="MIDI at pin|%port|set channel|%index|tone|%pply"
+    //% blockId=HaodaMidi_set block="midi at pin|%port|set channel|%index|tone|%pply"
     export function settone(port: Ports, index: riverss, pply: musicplay): void {
         let pin = PortDigital[port];
         midi_setpin(pin);
         midi_send(index, pply, pply);
     }
 
+    /**
+	 * show a digital in given position
+     * @param pply is position, eg: 50
+     */
     //% weight=40
-    //% blockId=HaodaMidi_sendtt block="MIDI at pin %port send channel %index scale %sca note %noty volume %pply"
-	//% inlineInputMode=inline
+    //% blockId=HaodaMidi_sendtt block="midi at pin %port send channel %index scale %sca note %noty volume %pply"
+    //% inlineInputMode=inline
+
     export function sendtone(port: Ports, index: riverss1, scale: musicscale, note: musicnote, pply: number): void {
         let pin = PortDigital[port];
         midi_setpin(pin);
@@ -565,8 +574,13 @@ namespace haodaMIDI {
         midi_send(index, value, pply);
     }
 
+    /**
+	 * show a digital in given position
+     * @param pcl is position, eg: 50
+     */
     //% weight=40
-    //% blockId=HaodaMidi_play block="MIDI at pin|%port|send percussion|%index|volume|%pcl"
+    //% blockId=HaodaMidi_play block="midi at pin|%port|send percussion|%index|volume|%pcl"
+   
     export function sendpercussion(port: Ports, index: soundd, pcl: number): void {
         let pin = PortDigital[port];
         midi_setpin(pin);
