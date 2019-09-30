@@ -529,13 +529,10 @@ namespace haodaMIDI {
         for (mask = 0x01; mask < 0x81; mask <<= 1) {
             if (index & mask) {
                 pins.digitalWritePin(pinn, 1);
-                pins.digitalWritePin(pinn, 1);
-
             } else {
                 pins.digitalWritePin(pinn, 0);
-                pins.digitalWritePin(pinn, 0);
-
             }
+            control.waitMicros(0);
 
         }
         pins.digitalWritePin(pinn, 1);
